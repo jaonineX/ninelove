@@ -2,12 +2,12 @@ mkdir -p ~/.streamlit/
 
 echo "\
 [general]\n\
-email = \"neoking285@gmail.com\"\n\
+email = \"kairung@webmail.npru.ac.th\"\n\
 " > ~/.streamlit/credentials.toml
 
 echo "\
 [server]\n\
 headless = true\n\
-enableCORS=false\n\D
+enableCORS=false\n\
 port = $PORT\n\
 " > ~/.streamlit/config.toml
