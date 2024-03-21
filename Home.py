@@ -38,7 +38,7 @@ plt.ylabel('Count')
 
 st.pyplot(plt)
 
- html_2 = """
+html_2 = """
 <div style="background-color:#0E1117;border-bottom: 3px solid #ffffff;border-top: 3px solid #ffffff;">
 <center><h3>The relationship between (Favorite Music Genre) and (Gender)</h3></center>
 </div>
