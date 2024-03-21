@@ -9,6 +9,13 @@ st.set_page_config(
 )
 st.sidebar.success("เลือกรายการด้านบน.")
 
+
+html_1 = """
+<div style="background-color:#0E1117;border-bottom: 3px solid #ffffff;border-top: 3px solid #ffffff;">
+<center><h3> การพยากรณ์ข้อมูล </h3></center>
+</div>
+"""
+
 st.header("  การพยากรณ์ข้อมูล....!  ")
 st.subheader(" 1.หลักการและเหตุผล")
 st.info("""
