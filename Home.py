@@ -38,7 +38,7 @@ plt.ylabel('Count')
 
 st.pyplot(plt)
 
-html_2 = """
+ html_2 = """
 <div style="background-color:#0E1117;border-bottom: 3px solid #ffffff;border-top: 3px solid #ffffff;">
 <center><h3>The relationship between (Favorite Music Genre) and (Gender)</h3></center>
 </div>
@@ -47,3 +47,8 @@ st.markdown(html_2, unsafe_allow_html=True)
 st.markdown("")
 
 
+ gender_data= sns.FacetGrid(data=fav_music_data, col="Gender")
+g.map(plt.hist, "Favorite Music Genre", bins=15, color="red", alpha=0.5)
+
+แสดงกราฟใน Streamlit
+st.pyplot(plt)
