@@ -47,7 +47,7 @@ st.markdown(html_2, unsafe_allow_html=True)
 st.markdown("")
 
 
-gender_data= sns.FacetGrid(data=fav_music_data, col="Gender")
+gender_data=sns.FacetGrid(data='Favorite Music Genre', col="Gender")
 gender_data.map(plt.hist, "Favorite Music Genre", bins=15, color="red", alpha=0.5)
 
 
